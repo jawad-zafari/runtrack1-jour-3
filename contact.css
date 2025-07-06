@@ -37,12 +37,10 @@ div{
 }
    label{
     padding: 10px;
-    display: grid;
 margin: auto;
 font-size: larger;
    }
    input{
-    display: grid;
     margin: auto;
     width: 50%;
 border-radius:5px ;
@@ -50,7 +48,6 @@ min-height: 30px;
 
    }
    textarea{
-    display: grid;
     text-align: center;
     margin: auto;
     border-radius: 10px;
@@ -70,4 +67,8 @@ min-height: 30px;
    .contact{
     text-align: center;
     display: inline-block;
+   }
+   pre{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
    }
