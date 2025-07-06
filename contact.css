@@ -1,17 +1,8 @@
-{
-float: right;
-
-}
 body{
-    background-color: rgb(90, 180, 244);
+    background-color: rgba(102, 198, 246, 0.575);
 }
-h1{text-align: center;
-    h1{
-        background-color: aliceblue;
-        border-radius: 10px;
-
-    }
- 
+h1{
+    text-align: center;
 }
 nav{ 
     text-align: center;
@@ -23,27 +14,60 @@ a{
     text-align:center;
     border-radius: 10px;
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: rgba(157, 205, 44, 0.521);
     padding: 5px;
     gap: 15px;
 }
 body{
 }
 h3{
-    color: aliceblue;
+    color: rgb(0, 3, 6);
 }
 h2{
+    text-align: center;
     color: black;
     font-size: 1.7rem;
 }
 div{
-    float: center;
-    text-align: center;
+    margin: auto;
     border-radius: 10px;
-    background-color: aliceblue;
-    max-width: 500px;
-    margin: 50px;
-    padding: 5px;
+    background-color: rgb(231, 234, 236);
+    max-width: 600px;
     font-size: large;
 }
-   
+   label{
+    padding: 10px;
+    display: grid;
+margin: auto;
+font-size: larger;
+   }
+   input{
+    display: grid;
+    margin: auto;
+    width: 50%;
+border-radius:5px ;
+min-height: 30px;
+
+   }
+   textarea{
+    display: grid;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(249, 246, 246);
+   }
+   footer{
+    font-size: larger;
+    max-width: 800px;
+    text-align: center;
+    background-color: rgb(14, 132, 243);
+    padding: 2px;
+    margin: auto;
+    border-radius: 10px;
+   }
+   .contact{
+    text-align: center;
+    display: inline-block;
+   }
