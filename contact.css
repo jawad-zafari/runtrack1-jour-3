@@ -1,0 +1,49 @@
+{
+float: right;
+
+}
+body{
+    background-color: rgb(90, 180, 244);
+}
+h1{text-align: center;
+    h1{
+        background-color: aliceblue;
+        border-radius: 10px;
+
+    }
+ 
+}
+nav{ 
+    text-align: center;
+    margin: 25px;
+    font-size: x-large;
+
+}
+a{
+    text-align:center;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 5px;
+    gap: 15px;
+}
+body{
+}
+h3{
+    color: aliceblue;
+}
+h2{
+    color: black;
+    font-size: 1.7rem;
+}
+div{
+    float: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 50px;
+    padding: 5px;
+    font-size: large;
+}
+   
