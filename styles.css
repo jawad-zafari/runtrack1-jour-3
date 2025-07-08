@@ -1,11 +1,12 @@
 body{
     background-color: rgba(102, 198, 246, 0.575);
 }
-h1{text-align: center;
+h1{
+    text-align: center;
     border-radius: 25PX;
     background-color: rgba(245, 222, 13, 0.468);
     max-width: 400px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 nav{
   text-align: center;  
@@ -55,18 +56,20 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .side-by-side {
+    text-align: center;
+    margin: 5px auto;
     display: inline-block;
+    margin-right: 50px;
     height: 100px;
-    width: 150px;
-    margin: 30px;
-   transform: translateX(300%);
+    width: 100px;
+    transform: translate(300%);
 }
 h2{
     text-align: center;
     border-radius: 25px;
     background-color: bisque;
     max-width: 800px;
-margin: 50px auto;
+margin: 15px auto;
 font-size: 1.8rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding: 15px;
@@ -84,3 +87,8 @@ h3{
 form{
  text-align: center;   
 }
+iframe{
+    margin: auto;
+    transform: translate(100%);
+
+    }
