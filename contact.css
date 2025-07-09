@@ -34,28 +34,54 @@ div{
     max-width: 600px;
     font-size: large;
 }
-   label{
-    text-align: center;
+   form{
+    font-size: large;
     padding: 10px;
-margin: auto;
-font-size: larger;
-   }
-   input{
-    text-align: center;
-    margin: auto;
-    width: 50%;
-border-radius:5px ;
-min-height: 30px;
-
-   }
-   textarea{
-    text-align: center;
-    margin: auto;
     border-radius: 10px;
-    width: 50%;
-   min-height: 100px;
-    background-color: rgb(249, 246, 246);
-   }
+    background-color: rgb(164, 208, 251);
+    max-width: 600px;
+    margin: 15px auto;
+    box-shadow: 0 0 20px rgb(189, 189, 189);
+}
+.form-group {
+    
+    border-radius: 0;
+    background-image: none;
+    margin: auto;
+    max-width: 600px;
+    padding: 25px;}
+
+    .form-group label {
+        margin: auto;
+        font-size: larger;
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-group input,
+.form-group textarea {
+    border: 1px solid rgb(174, 174, 173);
+    width: 80%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button{
+    border: 1px solid rgb(223, 223, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(245, 247, 247);
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+button:hover{
+    background: rgb(39, 161, 248);
+
+}
+
    footer{
     font-size: larger;
     max-width: 800px;
@@ -63,7 +89,7 @@ min-height: 30px;
     background-color: rgb(14, 132, 243);
     padding: 2px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 10px;}
    pre{
     display: inline-block;
     text-align: center;
