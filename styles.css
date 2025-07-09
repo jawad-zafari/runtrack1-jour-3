@@ -1,12 +1,11 @@
 body{
-    background-color: rgba(102, 198, 246, 0.575);
+    background-color: rgb(171, 208, 245);
 }
 h1{
     text-align: center;
     border-radius: 25PX;
-    background-color: rgba(245, 222, 13, 0.468);
     max-width: 400px;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 nav{
   text-align: center;  
@@ -14,12 +13,10 @@ nav{
   font-size: larger;
   color: black;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 5px;
   width: 100%;
   height: 4px;
   margin: 0;
-  z-index: 1000;
  font-size: 1.4 rem;              
 
 }
@@ -88,7 +85,13 @@ form{
  text-align: center;   
 }
 iframe{
-    margin: auto;
-    transform: translate(100%);
+    transform: translate(150%);
+    margin: 15px;
 
     }
+    video{
+        border-radius: 10px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
