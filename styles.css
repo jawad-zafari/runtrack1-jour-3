@@ -48,6 +48,10 @@ a{
   margin: 15px;
   padding: 3px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  transition:  0.3s ease;
+}
+a:hover{
+    background-color: rgb(7, 177, 64);
 }
 p{
     text-align: center;
