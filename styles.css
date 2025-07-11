@@ -53,13 +53,12 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .side-by-side {
+    transform: translate(300px);
     text-align: center;
     margin: 5px auto;
     display: inline-block;
     margin-right: 50px;
-    height: 100px;
     width: 100px;
-    transform: translate(300%);
 }
 h2{
     text-align: center;
